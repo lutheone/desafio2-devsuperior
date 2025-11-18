@@ -59,6 +59,10 @@ public class Participante {
         this.atividades = atividades;
     }
 
+    public Set<Atividade> getAtividades() {
+        return atividades;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;

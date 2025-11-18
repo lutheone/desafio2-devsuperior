@@ -75,8 +75,16 @@ public class Atividade {
         this.preco = preco;
     }
 
-    public void setParticipantes(Set<Participante> participantes) {
-        this.participantes = participantes;
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public Set<Participante> getParticipantes() {
+        return participantes;
+    }
+
+    public Set<Bloco> getBlocos() {
+        return blocos;
     }
 
     @Override
